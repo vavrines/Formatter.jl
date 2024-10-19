@@ -1,17 +1,22 @@
 # Formatter.jl
 
-To install the package:
+To add the package:
 ```julia
 julia> ]
-(v1.11) pkg> add https://github.com/vavrines/Formatter.jl
+(v1.11) pkg> dev https://github.com/vavrines/Formatter.jl
 ```
 
 To generate config file:
 ```bash
-julia main.jl config
+julia ~/.julia/dev/Formatter/main.jl config
 ```
 
-To format julia scripts:
+To format a julia script:
 ```bash
-julia main.jl format example.jl
+julia ~/.julia/dev/Formatter/main.jl format example.jl
+```
+
+To format all julia scripts in the current directory:
+```bash
+julia ~/.julia/dev/Formatter/main.jl format .
 ```
