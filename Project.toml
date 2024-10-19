@@ -1,0 +1,12 @@
+name = "Formatter"
+uuid = "f4cb0850-5254-4c9d-a5bf-d6074802d3b7"
+authors = ["Tianbai Xiao <tianbaixiao@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
+
+[compat]
+ArgParse = "1.2.0"
+JuliaFormatter = "1.0.62"
